@@ -7,6 +7,7 @@ if (typeof web3 !== 'undefined') {
   console.log("Printing the account[0]");
   console.log(web3.eth.defaultAccount);
   
+
   var contractABI = web3.eth.contract([
     {
       "constant": true,
